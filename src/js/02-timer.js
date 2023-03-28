@@ -27,7 +27,6 @@ const options = {
         intervalId = setInterval(() => {
           dateDifference = selectedDates[0] - new Date();
           insertDates();
-          console.log(dateDifference);
           if (dateDifference < 1000) {
             clearInterval(intervalId);
           }
